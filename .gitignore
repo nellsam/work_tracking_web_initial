@@ -1,0 +1,5 @@
+# Project exclude paths
+/.gradle/
+/build/
+/build/js/packages/work_tracking_web/kotlin/
+/node_modules/

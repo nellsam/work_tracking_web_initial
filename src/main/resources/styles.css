@@ -1,0 +1,123 @@
+
+html, body {
+    overflow-x: hidden;
+}
+
+body {
+    background-color: black;
+    color: white;
+
+    font-family: 'Noto Sans', sans-serif;
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.image-gallery {
+    height: 450px;
+    margin: 0;
+}
+
+.image-gallery img {
+    height: 300px;
+    margin: 0;
+}
+
+.image-gallery-thumbnail-image {
+    height: 300px;
+    margin: 0;
+}
+
+@keyframes descriptionPointFadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        visibility: visible;
+        opacity: 1;
+        margin-left: 50px;
+    }
+}
+
+#descriptionPoint1 {
+    animation: 0.5s ease 0.5s descriptionPointFadeIn;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+}
+
+#descriptionPoint2 {
+    animation: 0.5s ease 1s descriptionPointFadeIn;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+}
+
+#descriptionPoint3 {
+    animation: 0.5s ease 1.5s descriptionPointFadeIn;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+}
+
+#moreInfoAvailableSoon {
+    font-weight: bolder;
+}
+
+/*Text animated underline*/
+#moreInfoAvailableSoon:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+#moreInfoAvailableSoon:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+@keyframes submittedNotifyButtonColorChange {
+    from {
+        background-color: initial;
+    }
+    to {
+        background-color: limegreen;
+    }
+}
+
+#submittedNotifyButton {
+    animation: 3s ease submittedNotifyButtonColorChange;
+    animation-fill-mode: forwards;
+}
+
+@keyframes rollIn {
+    from {
+        height: 0;
+    }
+    to {
+        height: fit-content;
+    }
+}
+
+#promptedRecaptcha {
+    animation: 3s ease rollIn;
+    animation-fill-mode: forwards;
+}
+
+/* Finding overflowing content */
+/** {*/
+/*    border: 1px solid #f00 !important;*/
+/*}*/
+
+
+

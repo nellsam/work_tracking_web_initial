@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3e727a84-889f-4491-ac0b-05fdad9d4f17" name="Default Changelist" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/firebase-hosting-merge.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/firebase-hosting-pull-request.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/work_tracking_web_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/work_tracking_web_1_0_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/work_tracking_web_initial_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries-with-intellij-classes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/WorkTracking.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/work_tracking_web.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/work_tracking_web.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/work_tracking_web.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/firebase.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/AwaitingAppRelease.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Footer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Navigation.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/client.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/database/initializers/ShiftInitializer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/database/initializers/UserInitializer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/database/models/User.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/database/models/UserBase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/database/models/employee/Employee.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/database/models/employer/Employer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/database/models/employer/Member.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/database/models/shift/PauseModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/database/models/shift/ShiftModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/database/references/AppReleaseReferences.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/database/references/DatabaseReferences.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/database/references/ShiftReferences.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/database/references/UserReferences.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/firebase/FirebaseConfig.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/firebase/FirebaseInitialization.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/firebase/init-firebase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/home/AppDescriptionDialog.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/home/Description.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/home/Home.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/home/Images.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/home/ImagesGallery.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/home/ReleaseDate.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/react/ImageItem.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/react/ReactImageGallery.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/react/ReactMaterial.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/react/ReactRecaptcha.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ui/Colors.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/utils/MonthResolver.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/utils/Months.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/utils/ResponsiveLayout.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/utils/time-formatter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/attendance_day.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/attendance_night.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/edit_duration_failure.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/edit_duration_night.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/half/half_attendance_night.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/half/map_half_night.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/half/map_quarter_night.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/map_full_day.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/map_full_night.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/map_half_day.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/map_half_night.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/shift_day.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/shift_night.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/shift_tracking_night.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="Kotlin Worksheet" />
+        <option value="Kotlin Enum" />
+        <option value="CSS File" />
+        <option value="Kotlin Object" />
+        <option value="TypeScript File" />
+        <option value="Kotlin Data Class" />
+        <option value="Kotlin Class" />
+        <option value="TypeScript JSX File" />
+        <option value="JavaScript File" />
+        <option value="Kotlin Script" />
+        <option value="HTML File" />
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="master" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="nellsam &lt;63735700+nellsam@users.noreply.github.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="master" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="nellsam" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="work_tracking_web" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/nellsam/work_tracking_web" />
+      </set>
+    </option>
+  </component>
+  <component name="KotlinMultiplatform" konanHome="">
+    <allAvailableExecutables />
+  </component>
+  <component name="ProjectId" id="1m11FqofaqSGLmvVOJtVcglwm96" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\samue\OneDrive\Dokumenty\work_tracking_web\src\main\kotlin\database\models" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\samue\OneDrive\Dokumenty\work_tracking_web\src\main\kotlin\help" />
+      <recent name="C:\Users\samue\OneDrive\Dokumenty\work_tracking_web\src\main\resources\images" />
+      <recent name="C:\Users\samue\OneDrive\Dokumenty\work_tracking_web\src\main\kotlin\react" />
+      <recent name="C:\Users\samue\OneDrive\Dokumenty\work_tracking_web\src\main\kotlin" />
+      <recent name="C:\Users\samue\OneDrive\Dokumenty\work_tracking_web\src\main\kotlin\home" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="firebase" />
+      <recent name="database.references" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="kotlin" />
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.work_tracking_web [build]">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="work_tracking_web [browserDevelopmentRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--continuous" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="browserDevelopmentRun" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="work_tracking_web [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--stacktrace" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.work_tracking_web [build]" />
+        <item itemvalue="Gradle.work_tracking_web [browserDevelopmentRun]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3e727a84-889f-4491-ac0b-05fdad9d4f17" name="Default Changelist" comment="" />
+      <created>1608646182595</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608646182595</updated>
+      <workItem from="1608646184026" duration="1719000" />
+      <workItem from="1608648090991" duration="12666000" />
+      <workItem from="1608663034381" duration="1118000" />
+      <workItem from="1608747329616" duration="3928000" />
+      <workItem from="1609453722004" duration="4586000" />
+      <workItem from="1609494730378" duration="28755000" />
+      <workItem from="1609597910300" duration="1688000" />
+      <workItem from="1609599961861" duration="198000" />
+      <workItem from="1609600544329" duration="6751000" />
+      <workItem from="1609609125767" duration="8356000" />
+      <workItem from="1611512145381" duration="6694000" />
+      <workItem from="1611564342774" duration="8231000" />
+      <workItem from="1611579590873" duration="8226000" />
+      <workItem from="1611657996008" duration="1810000" />
+      <workItem from="1611677429341" duration="9318000" />
+      <workItem from="1611941868962" duration="14860000" />
+      <workItem from="1611997750685" duration="34898000" />
+      <workItem from="1612092352228" duration="12643000" />
+      <workItem from="1612165985728" duration="2006000" />
+      <workItem from="1612168237094" duration="1173000" />
+      <workItem from="1612169803816" duration="2363000" />
+      <workItem from="1612172609981" duration="35198000" />
+      <workItem from="1612266301014" duration="19987000" />
+      <workItem from="1612354637416" duration="6925000" />
+      <workItem from="1612369565089" duration="1123000" />
+      <workItem from="1612375607775" duration="4129000" />
+      <workItem from="1612383092298" duration="4631000" />
+      <workItem from="1612445924057" duration="20435000" />
+      <workItem from="1612510577768" duration="3187000" />
+      <workItem from="1612531328351" duration="4849000" />
+      <workItem from="1612537209097" duration="9445000" />
+      <workItem from="1612547874469" duration="14706000" />
+      <workItem from="1612601345743" duration="23694000" />
+      <workItem from="1612688040210" duration="11787000" />
+      <workItem from="1612718163782" duration="3220000" />
+      <workItem from="1613490989861" duration="6104000" />
+      <workItem from="1613822368844" duration="1203000" />
+      <workItem from="1614426497165" duration="12728000" />
+      <workItem from="1614508426923" duration="14729000" />
+      <workItem from="1614533404374" duration="13497000" />
+      <workItem from="1614591788707" duration="16218000" />
+      <workItem from="1617969404837" duration="495000" />
+      <workItem from="1617970440329" duration="2095000" />
+      <workItem from="1617990883160" duration="1425000" />
+      <workItem from="1620238592967" duration="2451000" />
+      <workItem from="1620380646010" duration="22000" />
+      <workItem from="1622285084686" duration="4374000" />
+    </task>
+    <task id="LOCAL-00001" summary="First simple one-page web">
+      <created>1612560546496</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612560546497</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Mobile responsive re-design">
+      <created>1612625618530</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1612625618530</updated>
+    </task>
+    <task id="LOCAL-00003" summary="More responsiveness">
+      <created>1612716448765</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1612716448765</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Awaiting users">
+      <created>1614626569071</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1614626569071</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Webp images">
+      <created>1620240919863</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1620240919864</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="First simple one-page web" />
+    <MESSAGE value="Mobile responsive re-design" />
+    <MESSAGE value="More responsiveness" />
+    <MESSAGE value="Awaiting users" />
+    <MESSAGE value="Webp images" />
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
